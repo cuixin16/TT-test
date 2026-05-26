@@ -1,4 +1,4 @@
-import { Sparkles, Wand2, Copy, Send, Clock, Shield, Image, Zap } from 'lucide-react';
+import { Sparkles, Copy, Send, Clock, Shield, Image } from 'lucide-react';
 
 const features = [
   {
