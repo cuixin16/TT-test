@@ -1,4 +1,4 @@
-import { Link2, Plus, Video, Clock, Send, Calendar } from 'lucide-react';
+import { Link2, Plus, Video, Send, Calendar } from 'lucide-react';
 
 export function Publishing() {
   return (

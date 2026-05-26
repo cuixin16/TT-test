@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { FileText, Image as ImageIcon, Video, Sparkles, Upload, Download, Send } from 'lucide-react';
+import { FileText, Image as ImageIcon, Video, Sparkles, Upload, Download } from 'lucide-react';
 import { useStore } from '../store';
 
 export function VideoGenerator() {

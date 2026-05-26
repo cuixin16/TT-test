@@ -1,4 +1,4 @@
-import { Zap, Sparkles, Rocket, ArrowRight } from 'lucide-react';
+import { Sparkles, ArrowRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 export function Hero() {

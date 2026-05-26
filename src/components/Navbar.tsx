@@ -1,10 +1,10 @@
 import { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { Menu, X, Zap, User, LogIn } from 'lucide-react';
+import { Menu, X, Zap, LogIn } from 'lucide-react';
 import { clsx } from 'clsx';
 import { twMerge } from 'tailwind-merge';
 
-function cn(...inputs: any[]) {
+function cn(...inputs: (string | number | boolean | undefined | null)[]) {
   return twMerge(clsx(inputs));
 }
 

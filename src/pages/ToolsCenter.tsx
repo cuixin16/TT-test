@@ -1,4 +1,4 @@
-import { Eraser, Type, User, Languages, Image, Wand2 } from 'lucide-react';
+import { Eraser, Type, User, Languages, Wand2 } from 'lucide-react';
 import { ToolCard } from '../components/ToolCard';
 
 const tools = [
