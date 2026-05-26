@@ -1,0 +1,75 @@
+vercel.json
+  46c06154fdb877e8 5-6,9-24 gitai:{"mixed_line_ranges":[],"operations":[{"operation_id":"6a156021d7335f4c1a8e8e1e","tool_type":"agent","tool_id":"Write","line_ranges":[{"Range":[5,6]},{"Range":[9,24]}]}]}
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.3.4",
+  "base_commit_sha": "32a3794d3cb825843b38c41ce0c7b59da50d8bcd",
+  "prompts": {
+    "46c06154fdb877e8": {
+      "agent_id": {
+        "tool": "trae",
+        "id": "6a13b7af058601eda4ee43fe",
+        "model": "Doubao_1_6__dev"
+      },
+      "human_author": "CrossAI <crossai@example.com>",
+      "messages": [],
+      "total_additions": 25,
+      "total_deletions": 0,
+      "accepted_lines": 25,
+      "overriden_lines": 0
+    }
+  },
+  "attestation_metadata": {
+    "vercel.json": [
+      {
+        "hash": "46c06154fdb877e8",
+        "line_ranges": [
+          {
+            "Range": [
+              5,
+              6
+            ]
+          },
+          {
+            "Range": [
+              9,
+              24
+            ]
+          }
+        ],
+        "mixed_line_ranges": [],
+        "operations": [
+          {
+            "operation_id": "6a156021d7335f4c1a8e8e1e",
+            "tool_type": "agent",
+            "tool_id": "Write",
+            "line_ranges": [
+              {
+                "Range": [
+                  5,
+                  6
+                ]
+              },
+              {
+                "Range": [
+                  9,
+                  24
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "remote_transcripts": {
+    "46c06154fdb877e8": {
+      "tool": "trae",
+      "conversation_id": "6a13b7af058601eda4ee43fe",
+      "session_id": "6a13b7af058601eda4ee43fe",
+      "status": "remote_only",
+      "message": "Remote transcript resolution is not implemented yet for TRAE prompts."
+    }
+  }
+}
